@@ -1,0 +1,20 @@
+name: rlm_forge
+version: "0.1.0"
+description: "RLM-Forge: Recursive Language Model training environment for AI coding agents"
+
+defaults:
+  max_iterations: 10
+  max_sub_agents: 10
+  output_truncation_chars: 5000
+
+  # Reward weights
+  test_pass_weight: 0.55
+  structural_validity_weight: 0.15
+  efficiency_weight: 0.30
+
+  # Feature extraction
+  extraction_mode: "curated"
+  min_source_loc: 50
+  max_source_loc: 500
+  min_tests: 3
+  max_tests: 50
