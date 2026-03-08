@@ -16,5 +16,8 @@ dependencies = [
     "uvicorn[standard]>=0.24.0",
 ]
 
+[project.scripts]
+server = "server.app:main"
+
 [tool.setuptools.packages.find]
 include = ["rlm_forge*"]

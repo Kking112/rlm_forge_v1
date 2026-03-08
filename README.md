@@ -1,3 +1,15 @@
+---
+title: RLM-Forge
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+python_version: 3.11
+sdk_version: 6.9.0
+app_file: server/app.py
+base_path: /rlm_forge
+---
+
 # RLM-Forge
 
 **Recursive Language Model training environment for AI coding agents.**
